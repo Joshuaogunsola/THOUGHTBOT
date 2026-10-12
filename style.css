@@ -10,15 +10,18 @@ body{
     padding-right: 100px;
     margin-left: 150px;
     color: #EAE6E4;
+    max-width: 60%;
 }
 .header {
     margin-top: 80px;
     text-align: ce;
     font-family: Arial, Helvetica, sans-serif;
     color: #faf9f9;
+    font-size: 25px;
 }
 p{
     margin-top: 20px;
+    font-size: 20px;
 }
 .list ul{
     list-style: none;
@@ -33,8 +36,20 @@ p{
     background-color: transparent;
     
 }
-a{
-    margin-top: 30px;  
+.list a:hover{
+    color: #FFC726;
 }
-h3{
+a{
+    margin-top: 30px;
+
+}
+h2 a:hover {
+    color: #FFC726;
+
+}
+h2{
+    color: #EAE6E4;
+    text-decoration: #faf9f9;
+    font-size: 30px;
+    font-family: "Google Sans Flex", sans-serif;
 }
